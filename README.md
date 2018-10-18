@@ -1,0 +1,1 @@
+C++ beolvasás és ellenőrzés
