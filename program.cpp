@@ -9,7 +9,7 @@ void beolvas(T &x) {
             cin.ignore(1000,'\n');
         } 
         cin.clear();
-        if(cin.peek()=='\n') cin.ignore(1000,'\n');
+        if(cin.peek()=='\n') cin.ignore(1,'\n');
     }while(hiba);
 }
 template <class T , class N>
@@ -23,7 +23,7 @@ void beolvas(T &x, N min) {
             cin.ignore(1000,'\n');
         } 
         cin.clear();
-        if(cin.peek()=='\n') cin.ignore(1000,'\n');
+        if(cin.peek()=='\n') cin.ignore(1,'\n');
     }while(hiba);
 }
 template <class T, class N, class X>
@@ -37,6 +37,6 @@ void beolvas(T &x, N min, X max) {
             cin.ignore(1000,'\n');
         } 
         cin.clear();
-        if(cin.peek()=='\n') cin.ignore(1000,'\n');
+        if(cin.peek()=='\n') cin.ignore(1,'\n');
     }while(hiba);
 }
